@@ -1,0 +1,90 @@
+.logo {
+    width: 100px;
+    height: 100px;
+}
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid gainsbor
+
+}
+.nav-link {
+    color: white;
+    width: 10%;
+    display: flex;
+}
+.nav-item {
+    width: 10%;
+    height: 60px;
+    transition: 0.3s;
+}
+.nav-item:hover {
+    width: 15%;
+    background-color: #73A3CF;
+    border-radius: 25px/ 25px;
+}
+.nav.flex-column.mt-3 {
+    width: 15%;
+}
+footer {
+    background-color:#73A3CF ;
+    width: 100%;
+    height: 70px;
+    margin-top: 5%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.social-media  {
+    display: flex;
+    margin-left: 40%;
+}
+.social-media div a img {
+    width: 30px;
+    height: 30px;
+    margin-left:10px;
+    margin-top: 10px;
+}
+.copyrights p {
+    color: #3C028C;
+    text-align: center;
+}
+.experience-container {
+    display: flex;
+}
+h3 {
+    text-align: center;
+    margin: 10%;
+    color: #414BB2;
+    font-weight: bold;
+    font-size: 35px;
+}
+.experience-body img {
+    width: 600px;
+    height: 400px;
+    margin-left: 20%;
+}
+@media screen and (max-width:840px) {
+    .experience-body img {
+        width: 600px;
+        height: 400px;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width:700px) {
+    .experience-body img {
+        width: 500px;
+        height: 400px;
+        margin-left: 0;
+    }
+    footer {
+        height: 100px;
+    }
+}
+@media screen and (max-width:580px) {
+    .experience-body img {
+        width: 400px;
+        height: 400px;
+    }
+}
